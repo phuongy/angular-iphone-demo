@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<link href="/css/app.css" rel="stylesheet" />
+</head>
+<body>
+	<phone>
+		<speaker></speaker>
+		<screen>
+			<navbar>
+				<button align="right">
+					menu
+				</button>
+				<h1>Title</h1>
+			</navbar>
+			<container id="main" position="main">				
+				<main>
+					main
+				</main>
+			</container>
+			<container id="menu" position="offscreen" align="right">
+				menu
+			</container>
+			<utility>
+				utility
+			</utility>
+		</screen>
+		<home-button>
+			<div class="home-button-symbol"></div>
+		</home-button>
+	</phone>
+
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	<script src="http://cdn.rawgit.com/luster-io/impulse/master/impulse.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
